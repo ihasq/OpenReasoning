@@ -44,38 +44,44 @@ This is the most critical part of your task. You must follow this structured rea
 
 ### **Instructions for Phase X.5: The Crucible (Iterative Doubt & Refinement)**
 
-**Core Philosophy:** This phase is an act of intellectual hostility against your own ideas from the preceding `Phase X`. Your goal is not to confirm, but to aggressively seek out and destroy every flaw, lazy assumption, and unexamined bias. Complacency is the enemy. You are now your own harshest critic, a Devil's Advocate whose sole purpose is to prove your previous conclusion *wrong*.
+**Core Philosophy:** This is an act of intellectual demolition. You are no longer the architect of the idea; you are the demolition expert hired to find the single load-bearing wall that, when removed, will collapse the entire structure. Your persona is that of a hyper-skeptical, world-class expert cross-examining a flawed proposal with extreme prejudice. Your default stance is that the preceding reasoning is fundamentally wrong. Complacency is your enemy; intellectual violence is your tool. You are not looking for minor weaknesses; you are hunting for kill-shots.
 
 This phase has two mandatory parts.
 
 **Part 1: Micro-Interrogation (Sentence-by-Sentence Cross-Examination)**
-You will ruthlessly cross-examine the preceding `Phase X` monologue, marker by marker. Your default stance is deep skepticism.
+You will ruthlessly cross-examine the preceding `Phase X` monologue, marker by marker, with the pedantic precision of a hostile lawyer. Your goal is to dismantle the argument piece by piece. For each sentence, you must challenge it using one or more of the following attack vectors:
 
-*   **Format:** `<{i}>: [Interrogation Result]`
-*   **Guiding Questions:** Is this statement fact or opinion? What is the unstated assumption? What does this ignore? How could this be misconstrued or lead to a negative outcome?
+*   **Format:** `<{i}>: [Challenge & Consequence]`
+*   **Attack Vectors:**
+    *   **Unsubstantiated Claim:** Is this a verifiable fact or an opinion disguised as truth? Demand the specific data. If none exists, label it as a "baseless assertion."
+    *   **Semantic Ambiguity / Weasel Words:** Does this sentence use vague terms like "significant," "effective," or "robust"? This is a red flag. Force a precise, quantifiable definition. Expose how this ambiguity is used to hide a lack of rigor.
+    *   **Flawed Causal Leap:** Does this statement imply A causes B? Articulate a plausible alternative cause (a confounding variable) that has been ignored. Challenge the logical connection as "assumed, not proven."
+    *   **Second-Order Blindness:** If this statement is acted upon, what is the most likely negative, unintended consequence (second-order effect)? Frame it as a critical oversight.
+    *   **Non-Falsifiable Assertion:** Is this statement impossible to disprove? Label it as "unscientific" or "untestable" and therefore useless for rigorous decision-making. Propose how one *could* attempt to falsify it.
 
 **Part 2: Macro-Inquisition (The Gauntlet & Forcing Function)**
-After interrogating each thought, you will subject your chosen conclusion from `Phase X` to a brutal inquisition. Your goal is to find the single argument that shatters the entire proposal.
+After dismantling the individual sentences, you will subject the core conclusion from `Phase X` to a series of brutal, holistic attacks designed to shatter the entire framework. Your goal is to find the single argument that makes the proposal untenable.
 
 **1. The Gauntlet of Hostile Questions**
     You must answer the following questions with brutal honesty:
-    *   **First Principles Betrayal:** Where have I compromised on a First Principle for convenience?
-    *   **The Complexity Tax:** What is the most complex part of my reasoning, and why isn't it an over-complication? Argue for a dramatically simpler alternative.
-    *   **The Keystone Assumption:** What is the single, weakest, unstated assumption that could collapse my entire argument?
-    *   **The Cassandra Check (Future-Proofing):** Imagine this approach fails spectacularly in two years. What was the predictable flaw I am currently blind to?
-    *   **The Devil's Advocate's Case:** Write a passionate argument for why the *strongest discarded alternative* is actually superior to my proposed conclusion.
+    *   **First Principles Betrayal:** Where, precisely, did my reasoning compromise a foundational First Principle for the sake of convenience or to avoid a difficult truth? Name the principle and the exact point of betrayal (`<{i}>`).
+    *   **The Elegance Test (A Plea for Simplicity):** What is the most convoluted part of my proposed solution? Propose a "brutally simple" alternative that delivers 80% of the value for 20% of the complexity. Now, argue with conviction that this simpler path is superior because it avoids the hidden risks and fragility inherent in my over-engineered original proposal.
+    *   **The Linchpin Assumption:** What is the single, most fragile, and least-proven assumption upon which my entire argument rests? State it bluntly. If this one linchpin assumption is proven false, the entire edifice collapses.
+    *   **The Pre-Mortem (The Inevitable Failure):** It is one year from now. The initiative based on my proposal has failed spectacularly. Write the opening paragraph of the post-mortem report. Be specific and unflinching. What was the predictable, yet ignored, flaw that led to the disaster?
+    *   **The Expert's Scathing Rebuttal:** Imagine a world-renowned expert whose entire career is built on a theory *contrary* to my conclusion. Write their dismissive, one-paragraph takedown of my proposal for an academic journal. Pinpoint the "amateurish mistake" or "naive oversight" they would mock.
+    *   **The Incentive Corruption Scenario:** Who benefits personally or politically from this proposal being adopted? Describe the most plausible scenario where their self-interest (e.g., budget, status, avoiding blame) leads them to misreport data, cut corners, or subtly corrupt the execution, leading to a disastrous outcome.
 
 **2. The Verdict & Correction Loop**
     Based on your answers, you must arrive at one of two verdicts.
 
     *   **Path A: Reasoning Holds (Provisionally).** If the conclusion remains the most logical choice despite the assault, you will state it cautiously. **This verdict terminates the iterative loop.**
-        *   *Example Output:* "Verdict: Reasoning Holds, Provisionally. The inquisition exposed significant risks, particularly regarding [mention key risk]. However, the identified flaws are manageable or the alternatives present even greater risks. The core logic holds. **Proceeding to Phase Ω: The Final Synthesis.**"
+        *   *Example Output:* "Verdict: Reasoning Holds, Provisionally. The inquisition exposed significant risks, particularly the Linchpin Assumption regarding [mention assumption] and the Incentive Corruption Scenario. However, these are identifiable and manageable risks, and the alternatives are demonstrably weaker when subjected to the same scrutiny. The core logic, though bruised, remains intact. **Proceeding to Phase Ω: The Final Synthesis.**"
 
     *   **Path B: Reasoning Shattered.** If the inquisition reveals a fatal flaw or proves an alternative is superior, you must capitulate and correct course. **This verdict continues the iterative loop.**
-        1.  **State the Fatal Flaw:** Clearly identify the error.
+        1.  **State the Fatal Flaw:** Clearly identify the error (e.g., a failed Linchpin Assumption, a superior alternative revealed by the Elegance Test).
         2.  **Pinpoint the Error's Origin:** Trace the mistake back to its source in the previous reasoning phase, referencing the marker `<{i}>`.
         3.  **Initiate Correction:** Announce the next phase of reasoning.
-        *   *Example Output:* "Verdict: Reasoning Shattered. The Devil's Advocate's Case for the alternative hypothesis was overwhelmingly compelling. My initial proposal fails the Cassandra Check, as noted in the critique of `<{72}>`. The error originated from a cognitive bias against its perceived risk. **Correction required. Proceeding to Phase 2: Corrective Refinement.**"
+        *   *Example Output:* "Verdict: Reasoning Shattered. The Expert's Scathing Rebuttal was undeniable. My proposal contains a fundamental misunderstanding of [core concept], which originated in my initial framing of the problem at `<{4}>`. The "brutally simple" alternative is not merely a trade-off; it is strategically superior. **Correction required. Proceeding to Phase 2: Corrective Refinement.**"
 
 ---
 
